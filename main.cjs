@@ -315,7 +315,8 @@ async function sendLb(lb) {
 
 async function sendPing(ping) {
     try {
-        await axios.post("https://discord.com/api/webhooks/1191121780958568568/Z0AdfOZ-_X6jPxZ_L21hZKovBsC82qkcS-n8ldP5ay3NYjTSorMT2Durtd_zkyJCYQeD", {
+		// set discord webhook
+        await axios.post(" ", {
             username: "MarketOrca",
 			avatar_url: "https://i.imgur.com/Zya0cbS.png",
             content: "",
